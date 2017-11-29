@@ -1,0 +1,19 @@
+﻿  UnliveProduct.cpp
+d:\works\works\projects\c++ course\magazineworkcource\products\product.h(19): warning C4251: Product::name: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Product"
+  d:\vs2015\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+d:\works\works\projects\c++ course\magazineworkcource\products\product.h(32): warning C4251: UnliveProduct::material: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "UnliveProduct"
+  d:\vs2015\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  Product.cpp
+d:\works\works\projects\c++ course\magazineworkcource\products\product.h(19): warning C4251: Product::name: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Product"
+  d:\vs2015\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+d:\works\works\projects\c++ course\magazineworkcource\products\product.h(32): warning C4251: UnliveProduct::material: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "UnliveProduct"
+  d:\vs2015\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  LiveProduct.cpp
+d:\works\works\projects\c++ course\magazineworkcource\products\product.h(19): warning C4251: Product::name: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Product"
+  d:\vs2015\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+d:\works\works\projects\c++ course\magazineworkcource\products\product.h(32): warning C4251: UnliveProduct::material: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "UnliveProduct"
+  d:\vs2015\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  Создание кода...
+     Создается библиотека D:\Works\works\Projects\C++ Course\MagazineWorkCource\Debug\Products.lib и объект D:\Works\works\Projects\C++ Course\MagazineWorkCource\Debug\Products.exp
+  Products.vcxproj -> D:\Works\works\Projects\C++ Course\MagazineWorkCource\Debug\Products.dll
+  Products.vcxproj -> D:\Works\works\Projects\C++ Course\MagazineWorkCource\Debug\Products.pdb (Full PDB)

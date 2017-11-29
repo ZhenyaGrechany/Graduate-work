@@ -1,133 +1,123 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Products">
+    <Filter Include="Shop">
+      <UniqueIdentifier>{080d0bde-32f5-48c1-be0f-02b14542ca86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shop\Products">
       <UniqueIdentifier>{ed1e9abd-bb7c-4831-aaf8-abcacb570e6c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="UI">
-      <UniqueIdentifier>{831f14c0-e835-413d-8260-b92553d000e8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Factory">
+    <Filter Include="Shop\Factory">
       <UniqueIdentifier>{ce8665a8-3c32-4f86-afd2-5eef11163719}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Base">
-      <UniqueIdentifier>{ee1c5da1-2679-4dc2-9e44-bbe68e1271bf}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Products\Source">
-      <UniqueIdentifier>{2d5bc929-e54b-4d7c-8f95-e8a93a2ffac9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="UI\Source">
-      <UniqueIdentifier>{1d7ccda8-e309-4de1-9430-173f243943a6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Base\Source">
-      <UniqueIdentifier>{6f8f7631-8365-4c18-b0b5-51b1a3b1aa79}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Resource">
-      <UniqueIdentifier>{dbf3dd88-749d-41dc-a158-beb11748120d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Factory\Source">
+    <Filter Include="Shop\Factory\Source">
       <UniqueIdentifier>{5cc012e2-0cbf-4b62-89a1-1c88e4822855}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource\Source">
-      <UniqueIdentifier>{114dbe53-cfc3-4f06-bc31-5357c5f5c884}</UniqueIdentifier>
+    <Filter Include="Shop\Base">
+      <UniqueIdentifier>{ee1c5da1-2679-4dc2-9e44-bbe68e1271bf}</UniqueIdentifier>
     </Filter>
-    <Filter Include="UI\Base">
+    <Filter Include="Shop\Base\Source">
+      <UniqueIdentifier>{6f8f7631-8365-4c18-b0b5-51b1a3b1aa79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shop\Single">
+      <UniqueIdentifier>{b464af14-e525-4d65-8d94-b825b41eef7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shop\UI">
+      <UniqueIdentifier>{831f14c0-e835-413d-8260-b92553d000e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shop\UI\Source">
+      <UniqueIdentifier>{1d7ccda8-e309-4de1-9430-173f243943a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shop\UI\Base">
       <UniqueIdentifier>{aa46a36e-03ad-4f60-a40d-10167a7d72c5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="UI\Objects">
+    <Filter Include="Shop\UI\Objects">
       <UniqueIdentifier>{15105152-6428-493f-acc1-eb8d1054021a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Single">
-      <UniqueIdentifier>{b464af14-e525-4d65-8d94-b825b41eef7a}</UniqueIdentifier>
+    <Filter Include="Shop\Resource">
+      <UniqueIdentifier>{dbf3dd88-749d-41dc-a158-beb11748120d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shop\Resource\Source">
+      <UniqueIdentifier>{114dbe53-cfc3-4f06-bc31-5357c5f5c884}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="I_ShopAbstractFactory.h">
-      <Filter>Factory</Filter>
-    </ClInclude>
-    <ClInclude Include="Product.h">
-      <Filter>Products</Filter>
-    </ClInclude>
-    <ClInclude Include="UnliveProduct.h">
-      <Filter>Products</Filter>
-    </ClInclude>
-    <ClInclude Include="LiveProduct.h">
-      <Filter>Products</Filter>
+      <Filter>Shop\Factory</Filter>
     </ClInclude>
     <ClInclude Include="Holder.h">
-      <Filter>Base</Filter>
+      <Filter>Shop\Base</Filter>
     </ClInclude>
     <ClInclude Include="LiveFactory.h">
-      <Filter>Factory</Filter>
-    </ClInclude>
-    <ClInclude Include="Shop.h">
-      <Filter>Resource</Filter>
+      <Filter>Shop\Factory</Filter>
     </ClInclude>
     <ClInclude Include="UnliveFactory.h">
-      <Filter>Factory</Filter>
+      <Filter>Shop\Factory</Filter>
     </ClInclude>
     <ClInclude Include="BaseInput.h">
-      <Filter>UI\Base</Filter>
+      <Filter>Shop\UI\Base</Filter>
     </ClInclude>
     <ClInclude Include="BaseOutput.h">
-      <Filter>UI\Base</Filter>
+      <Filter>Shop\UI\Base</Filter>
     </ClInclude>
     <ClInclude Include="LiveInput.h">
-      <Filter>UI\Objects</Filter>
+      <Filter>Shop\UI\Objects</Filter>
     </ClInclude>
     <ClInclude Include="LiveOutput.h">
-      <Filter>UI\Objects</Filter>
+      <Filter>Shop\UI\Objects</Filter>
     </ClInclude>
     <ClInclude Include="UnliveInput.h">
-      <Filter>UI\Objects</Filter>
+      <Filter>Shop\UI\Objects</Filter>
     </ClInclude>
     <ClInclude Include="UnliveOutput.h">
-      <Filter>UI\Objects</Filter>
+      <Filter>Shop\UI\Objects</Filter>
     </ClInclude>
     <ClInclude Include="SingleText.h">
-      <Filter>Single</Filter>
+      <Filter>Shop\Single</Filter>
     </ClInclude>
     <ClInclude Include="BackUp.h">
-      <Filter>Single</Filter>
+      <Filter>Shop\Single</Filter>
+    </ClInclude>
+    <ClInclude Include="LProducts.h">
+      <Filter>Shop\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Store.h">
+      <Filter>Shop\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Products\Product.h">
+      <Filter>Shop\Products</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Holder.cpp">
-      <Filter>Base\Source</Filter>
-    </ClCompile>
-    <ClCompile Include="LiveProduct.cpp">
-      <Filter>Products\Source</Filter>
-    </ClCompile>
-    <ClCompile Include="Product.cpp">
-      <Filter>Products\Source</Filter>
-    </ClCompile>
-    <ClCompile Include="UnliveProduct.cpp">
-      <Filter>Products\Source</Filter>
+      <Filter>Shop\Base\Source</Filter>
     </ClCompile>
     <ClCompile Include="LiveFactory.cpp">
-      <Filter>Factory\Source</Filter>
+      <Filter>Shop\Factory\Source</Filter>
     </ClCompile>
     <ClCompile Include="LiveOutput.cpp">
-      <Filter>UI\Source</Filter>
+      <Filter>Shop\UI\Source</Filter>
     </ClCompile>
     <ClCompile Include="LiveInput.cpp">
-      <Filter>UI\Source</Filter>
+      <Filter>Shop\UI\Source</Filter>
     </ClCompile>
     <ClCompile Include="UnliveOutput.cpp">
-      <Filter>UI\Source</Filter>
+      <Filter>Shop\UI\Source</Filter>
     </ClCompile>
     <ClCompile Include="UnliveInput.cpp">
-      <Filter>UI\Source</Filter>
-    </ClCompile>
-    <ClCompile Include="Shop.cpp">
-      <Filter>Resource\Source</Filter>
+      <Filter>Shop\UI\Source</Filter>
     </ClCompile>
     <ClCompile Include="UnliveFactory.cpp">
-      <Filter>Factory\Source</Filter>
+      <Filter>Shop\Factory\Source</Filter>
     </ClCompile>
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Store.cpp">
+      <Filter>Shop\Resource\Source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram.cd" />
+    <Library Include="..\Debug\Products.lib">
+      <Filter>Shop\Products</Filter>
+    </Library>
   </ItemGroup>
 </Project>

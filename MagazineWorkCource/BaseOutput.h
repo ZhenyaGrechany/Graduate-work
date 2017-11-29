@@ -1,7 +1,6 @@
 #pragma once
 #include <vector>
-#include "Product.h"
-#include "LiveProduct.h"
+#include "LProducts.h"
 #include <typeinfo>
 #include <iostream>
 #include "SingleText.h"

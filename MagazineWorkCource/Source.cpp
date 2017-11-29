@@ -1,9 +1,9 @@
-#include "Shop.h"
+#include "Store.h"
 
 using namespace std;
 
 int main()
 {
-	Shop shop;
-	shop.run();
+	Store store;
+	store.run();
 }

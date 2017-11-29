@@ -146,6 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\Products\Product.h" />
     <ClInclude Include="BackUp.h" />
     <ClInclude Include="BaseInput.h" />
     <ClInclude Include="BaseOutput.h" />
@@ -154,31 +155,26 @@
     <ClInclude Include="LiveFactory.h" />
     <ClInclude Include="LiveInput.h" />
     <ClInclude Include="LiveOutput.h" />
-    <ClInclude Include="LiveProduct.h" />
-    <ClInclude Include="Product.h" />
-    <ClInclude Include="Shop.h" />
+    <ClInclude Include="LProducts.h" />
+    <ClInclude Include="Store.h" />
     <ClInclude Include="SingleText.h" />
     <ClInclude Include="UnliveFactory.h" />
     <ClInclude Include="UnliveInput.h" />
     <ClInclude Include="UnliveOutput.h" />
-    <ClInclude Include="UnliveProduct.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Holder.cpp" />
     <ClCompile Include="LiveFactory.cpp" />
     <ClCompile Include="LiveInput.cpp" />
     <ClCompile Include="LiveOutput.cpp" />
-    <ClCompile Include="LiveProduct.cpp" />
-    <ClCompile Include="Product.cpp" />
-    <ClCompile Include="Shop.cpp" />
+    <ClCompile Include="Store.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="UnliveFactory.cpp" />
     <ClCompile Include="UnliveInput.cpp" />
     <ClCompile Include="UnliveOutput.cpp" />
-    <ClCompile Include="UnliveProduct.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram.cd" />
+    <Library Include="..\Debug\Products.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

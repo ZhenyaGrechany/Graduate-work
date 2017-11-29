@@ -1,6 +1,6 @@
 #pragma once
 #include "BaseOutput.h"
-#include "UnliveProduct.h"
+#include "LProducts.h"
 class UnliveOutput :
 	public BaseOutput
 {

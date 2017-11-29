@@ -1,6 +1,5 @@
 #include "UnliveFactory.h"
-#include "Product.h"
-#include "UnliveProduct.h"
+#include "LProducts.h"
 #include "UnliveInput.h"
 #include "UnliveOutput.h"
 

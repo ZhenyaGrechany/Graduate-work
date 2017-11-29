@@ -1,6 +1,5 @@
 #include "LiveFactory.h"
-#include "Product.h"
-#include "LiveProduct.h"
+#include "LProducts.h"
 #include "LiveInput.h"
 #include "LiveOutput.h"
 
@@ -10,7 +9,7 @@ LiveFactory::LiveFactory()
 
 Product * LiveFactory::createProduct()
 {
-	Product *live_p = new LiveProduct;
+    Product *live_p = new LiveProduct;
 	return live_p;
 }
 

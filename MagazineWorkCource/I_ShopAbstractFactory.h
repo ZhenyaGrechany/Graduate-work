@@ -1,7 +1,7 @@
 #pragma once
 #include "BaseOutput.h"
 #include "BaseInput.h"
-#include "Product.h"
+#include "LProducts.h"
 
 class I_ShopAbstractFactory
 {
